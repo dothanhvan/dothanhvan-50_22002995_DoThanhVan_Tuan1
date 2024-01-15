@@ -1,0 +1,51 @@
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main {
+    width: 800px;
+    border: 1px solid blue;
+    padding: 0px 10px 30px 2px;
+}
+
+.content-section {
+    border: 1px solid #000;
+    position: relative;
+    padding: 14px 0;
+    margin-bottom: 10px;
+}
+
+.content-section .text-caption {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    padding: 0 4px;
+    background: #fff;
+}
+
+.line {
+    padding: 2px 0;
+}
+
+.text-heading-1 {
+    display: inline-block;
+    width: 95px;
+    padding-left: 20px;
+}
+
+.text-heading-2 {
+    display: inline-block;
+    width: 171px;
+    padding-left: 20px;
+}
+
+.content-section #message-input {
+    vertical-align: middle;
+}
+
+#question-input {
+    width: 140px;
+}

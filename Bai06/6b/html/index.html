@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div id="main">
+        <h1>Contact Us</h1>
+
+        <form>
+            <div class="content-section">
+                <div class="text-caption">Your message:</div>
+                <div class="line">
+                    <div class="text-heading-1">To</div>
+                    <input type="text" required placeholder="" name="to" id="to-input">
+                </div>
+                <div class="line">
+                    <div class="text-heading-1">Your email</div>
+                    <input type="email" required name="email" id="email-input">
+                </div>
+                <div class="line">
+                    <div class="text-heading-1">Message</div>
+                    <textarea placeholder="" name="message" id="message-input" cols="40" rows="7"></textarea>
+                </div>
+                <div class="line">
+                    <div class="text-heading-1">Attach File</div>
+                    <input type="file" required name="file" id="file-input">
+                </div>
+            </div>
+            <div class="content-section">
+                <div class="text-caption">Your message:</div>
+                <div class="line">
+                    <div class="text-heading-2">How did you hear of us</div>
+                    <select name="question" id="question-input">
+                        <option value="Google">Google</option>
+                        <option value="Youtube">Youtube</option>
+                        <option value="Twitter">Twitter</option>
+                        <option value="Github">Github</option>
+                    </select>
+                </div>
+            </div>
+            <button style="padding: 2px 7px;" type="submit">Send message</button>
+        </form>
+    </div>
+</body>
+
+</html>

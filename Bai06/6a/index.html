@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="../6a/style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="header">
+            <h1>Registration Form</h1>
+        </div>
+        <div class="sub-header">
+            <p>Register your Jackson Electronics product here</p>
+        </div>
+
+        <form>
+            <div class="line">
+                <div class="input-heading">First Name:</div>
+                <input style="width: 130px;" type="text" required name="fname" id="fname-input">
+                Last Name:
+                <input style="width: 130px;" type="text" required name="lname" id="lname-input">
+            </div>
+            <div class="line">
+                <div class="input-heading">Address #1:</div>
+                <input style="width: 230px;" type="text" required name="address-1" id="address-1-input">
+            </div>
+            <div class="line">
+                <div class="input-heading">Address #2:</div>
+                <input style="width: 230px;" type="text" required name="address-2" id="address-2-input">
+            </div>
+            <div class="line">
+                <div class="input-heading">City:</div>
+                <input style="width: 150px;" type="text" required name="city" id="city-input">
+                States:
+                <input style="width: 40px;" type="text" required name="states" id="states-input">
+                Zip:
+                <input style="width: 80px;" type="text" required name="zip" id="zip-input">
+            </div>
+            <div class="line">
+                <div class="input-heading">Country:</div>
+                <input style="width: 150px;" type="text" required name="country" placeholder="United States" id="country-input">
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div class="line">
+                <div class="input-heading">Product:</div>
+                <select style="width: 115px;" name="product" id="product-select">
+                    <option value="ScanMaster">ScanMaster</option>
+                    <option value="ScanMaster1">ScanMaster1</option>
+                    <option value="ScanMaster2">ScanMaster2</option>
+                    <option value="ScanMaster3">ScanMaster2</option>
+                </select>
+            </div>
+            <div class="line">
+                <div class="input-heading">Date Purchased:</div>
+                <input style="width: 150px;" type="text" required name="date-purchased" id="date-purchased-input">
+            </div>
+            <div class="line">
+                <div class="input-heading">Serial#:</div>
+                <input style="width: 150px;" type="text" required name="serial" id="serial-input">
+            </div>
+            <div class="line">
+                <div class="line">
+                    <div class="input-heading">Used for:</div>
+                    <span style="margin-right: 85px;"><input type="radio" required name="purpose" id="home-radio" value="Home"> Home</span>
+                    <span><input type="radio" required name="purpose" id="educational-radio" value="Educational"> Educational Institution</span>
+                </div>
+                <div class="line">
+                    <div class="input-heading"></div>
+                    <span style="margin-right: 67px;"><input type="radio" required name="purpose" id="business-radio" value="Business"> Business</span>
+                    <span><input type="radio" required name="purpose" id="other-radio" value="Other"> Other</span>
+                </div>
+                <div class="line">
+                    <div class="input-heading"></div>
+                    <span style="margin-right: 80px;"><input type="radio" name="purpose" id="government-radio" value="Government"> Government</span>
+                </div>
+            </div>
+            
+            <div class="line">
+                <div class="line">
+                    <div class="input-heading">System (check all that apply):</div>
+                    <span style="margin-right: 73.5px;"><input type="checkbox" name="windows" id="used-for-radio" value="Windows"> Windows</span>
+                    <span><input type="checkbox" name="UNIX" id="UNIX-radio" value="UNIX"> UNIX</span>
+                </div>
+                <div class="line">
+                    <div class="input-heading"></div>
+                    <span style="margin-right: 67px;"><input type="checkbox" name="macintosh" id="macintosh-radio" value="Macintosh"> Macintosh</span>
+                    <span><input type="checkbox" name="other" id="other-radio" value="Other"> Other</span>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div class="line">
+                <span style="vertical-align: top;"><div class="input-heading">Comments?:</div></span>
+                <textarea name="comments" required id="comments-textarea" cols="60" rows="7"></textarea>
+            </div>
+
+            <div style="text-align: center;" class="line">
+                <button type="submit">Click to register</button>
+                <button type="reset">Click to cancel</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.header, .sub-header {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    background-color: deepskyblue;
+    padding: 0 100px;
+}
+
+.header {
+    padding: 50px 0;
+}
+
+.line {
+    padding: 3px 0;
+}
+
+.input-heading {
+    display: inline-block;
+    width: 200px;
+}
+
+#used-for-radio {
+    padding: 5px 0;
+}

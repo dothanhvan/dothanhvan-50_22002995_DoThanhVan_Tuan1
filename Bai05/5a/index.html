@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Movie Day</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        table {
+            border: 1px solid #333;
+        }
+
+        tbody td {
+            width: 110px;
+            justify-content: center;
+        }
+
+        tbody th {
+            width: 55px;
+        }
+
+        tbody tr td, th {
+            border: 1px solid #333;
+        }
+
+        .table-container {
+            border: 1px solid #ccc;
+            padding: 3px;
+        }
+
+        .table-container p {
+            text-align: center;
+            padding: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="table-container">
+        <p>Classic Movie Day</p>
+        <table>
+            <tbody class="table-container">
+                <tr>
+                    <th></th>
+                    <th>5 pm</th>
+                    <th>7 pm</th>
+                    <th>9 pm</th>
+                    <th>11 pm</th>
+                </tr>
+                <tr>
+                    <th>Screen one</th>
+                    <td>Star Wars</td>
+                    <td>Empire Strikes Back</td>
+                    <td>Return of the Jedi</td>
+                    <td>The Exorcist</td>
+                </tr>
+                <tr>
+                    <th>Screen two</th>
+                    <td colspan="2">Dances with Wolves</td>
+                    <td colspan="2">Gone With the Wind</td>
+                </tr>
+                <tr>
+                    <th>Screen three</th>
+                    <td colspan="2">2001: A Space Odyssey</td>
+                    <td>The Conversation</td>
+                    <td>5 Easy Pieces</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
